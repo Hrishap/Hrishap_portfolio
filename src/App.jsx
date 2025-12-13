@@ -1,5 +1,7 @@
+import Dock from '#components/Dock'
 import Navbar from '#components/Navbar'
 import Welcome from '#components/Welcome'
+
 import React from 'react'
 
 const App = () => {
@@ -7,6 +9,7 @@ const App = () => {
   <main>
     <Navbar/>
     <Welcome/>
+   <Dock/>
   </main>
   )
 }
