@@ -95,7 +95,7 @@ The project uses Tailwind CSS for styling. Customize colors, fonts, and layout b
 
 **Hrishap**
 - GitHub: [@Hrishap](https://github.com/Hrishap)
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: [Hrishap](https://www.linkedin.com/in/hrishap-joshi/)
 
 ---
 
