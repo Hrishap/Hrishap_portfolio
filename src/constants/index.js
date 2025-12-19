@@ -102,11 +102,11 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React.js", "Next.js", "JavaScript"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "Data structures and Algorithm",
+    items: ["C++", "C"],
   },
   {
     category: "Styling",
@@ -114,7 +114,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
@@ -132,28 +132,14 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/Hrishap",
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/hrishap-joshi/",
   },
 ];
 
@@ -222,63 +208,64 @@ const WORK_LOCATION = {
   icon: "/icons/work.svg",
   kind: "folder",
   children: [
-    // ▶ Project 1
+
+    // ▶ Project 1: Nova Agent
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Nova Agent – AI Mock Interview Platform",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      position: "top-10 left-5",
+      windowPosition: "top-[5vh] left-5",
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Nova Agent.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Nova Agent is an AI-powered mock interview platform designed to simulate real interview experiences.",
+            "It allows users to practice interviews, receive AI-generated questions, and get structured feedback on responses.",
+            "The platform helps candidates improve communication, confidence, and interview readiness using AI.",
+            "Built using modern full-stack technologies with AI integration for real-time evaluation."
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "nova-agent.github",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/Hrishap/nova",
           position: "top-10 right-20",
         },
         {
-          id: 4,
-          name: "nike.png",
+          id: 3,
+          name: "nova-agent.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/nova.jpeg",
         },
         {
-          id: 5,
-          name: "Design.fig",
+          id: 4,
+          name: "GitHub.url",
           icon: "/images/plain.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
+          fileType: "url",
+          href: "https://github.com/Hrishap/nova",
           position: "top-60 right-20",
         },
       ],
     },
 
-    // ▶ Project 2
+    // ▶ Project 2: Parallel Lives
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Parallel Lives – What-if Simulator",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,52 +273,52 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Parallel Lives.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Parallel Lives is a what-if simulation platform that explores alternative life choices and outcomes.",
+            "Users can simulate different decisions and visualize how their lives might unfold under different scenarios.",
+            "The project blends AI reasoning with storytelling to create meaningful and engaging simulations.",
+            "It demonstrates strong problem modeling, system design, and creative AI usage."
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "parallel-lives.github",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/Hrishap/ParallelLives",
           position: "top-20 left-20",
         },
         {
-          id: 4,
-          name: "ai-resume-analyzer.png",
+          id: 3,
+          name: "parallel-lives.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/project-parallelLives.png",
         },
         {
-          id: 5,
-          name: "Design.fig",
+          id: 4,
+          name: "GitHub.url",
           icon: "/images/plain.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
+          fileType: "url",
+          href: "https://github.com/Hrishap/ParallelLives",
           position: "top-60 left-5",
         },
       ],
     },
 
-    // ▶ Project 3
+    // ▶ Project 3: AI Car Marketplace
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "AI Car Marketplace",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,49 +326,42 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "AI Car Marketplace.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "AI Car Marketplace is an intelligent platform for discovering and comparing cars using AI-driven recommendations.",
+            "It helps users find suitable cars based on preferences, budget, and usage patterns.",
+            "The system focuses on improving user decision-making using smart filtering and AI insights.",
+            "This project highlights practical AI usage in a real-world marketplace scenario."
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "ai-car-marketplace.github",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/Hrishap/ai-car-marketplace",
           position: "top-10 right-20",
         },
+   
         {
-          id: 4,
-          name: "food-delivery-app.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
+          id: 3,
+          name: "GitHub.url",
           icon: "/images/plain.png",
           kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
+          fileType: "url",
+          href: "https://github.com/Hrishap/ai-car-marketplace",
           position: "top-60 right-20",
         },
       ],
     },
   ],
 };
+
 
 const ABOUT_LOCATION = {
   id: 2,
@@ -390,51 +370,53 @@ const ABOUT_LOCATION = {
   icon: "/icons/info.svg",
   kind: "folder",
   children: [
+    // {
+    //   id: 1,
+    //   name: "me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-10 left-5",
+    //   imageUrl: "/images/hrishap-1.jpg", // replace with your photo
+    // },
+    // {
+    //   id: 2,
+    //   name: "casual-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-28 right-72",
+    //   imageUrl: "/images/hrishap-2.jpg", // optional casual photo
+    // },
+    // {
+    //   id: 3,
+    //   name: "conference-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/hrishap-3.jpg", // optional professional photo
+    // },
     {
       id: 1,
-      name: "me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
-    },
-    {
-      id: 2,
-      name: "casual-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
-    {
-      id: 4,
       name: "about-me.txt",
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "AI-Focused Full Stack Developer",
+      image: "/images/hrishap-1.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Hrishap Joshi 👋 — a passionate full-stack developer with a strong interest in AI-driven products and problem solving.",
+        "I enjoy building intelligent applications that combine clean user experiences with meaningful backend logic and AI capabilities.",
+        "My work spans modern web technologies, system design, and applied AI — from mock interview platforms to intelligent simulators and marketplaces.",
+        "I believe good software should be simple to use, scalable by design, and built with clarity in both code and purpose.",
+        "Currently, I’m focused on sharpening my engineering skills, building real-world projects, and preparing for high-impact software roles."
       ],
     },
   ],
 };
+
 
 const RESUME_LOCATION = {
   id: 3,

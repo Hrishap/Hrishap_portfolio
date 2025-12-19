@@ -1,16 +1,102 @@
-# React + Vite
+# macOS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive portfolio website designed to mimic the macOS interface, built with React and cutting-edge web technologies.
 
-Currently, two official plugins are available:
+![Portfolio Preview](./public/images/portfolio.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **macOS-like Interface**: Authentic macOS desktop experience with draggable windows, dock, and navigation
+- **Interactive Windows**:
+  - Terminal emulator
+  - Safari browser simulation
+  - Resume viewer with PDF support
+  - File finder/explorer
+  - Text editor
+  - Image gallery
+  - Contact form
+  - Home dashboard
+- **Smooth Animations**: Powered by GSAP for fluid transitions and interactions
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Modern UI**: Built with Tailwind CSS for consistent styling
+- **State Management**: Efficient state handling with Zustand
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP
+- **Icons**: Lucide React
+- **State Management**: Zustand
+- **PDF Viewer**: React PDF
+- **Date Handling**: Dayjs
+- **Utilities**: Immer, Clsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Hrishap/Hrishap_portfolio.git
+cd Hrishap_portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 🏗️ Build & Deployment
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview the production build:
+```bash
+npm run preview
+```
+
+## 📱 Usage
+
+- **Navigation**: Use the dock at the bottom to open different applications
+- **Windows**: Drag windows around the screen, minimize/maximize/close them
+- **Finder**: Explore the file system and view images
+- **Resume**: View and download the resume PDF
+- **Contact**: Send messages through the contact form
+- **Terminal**: Interact with the terminal interface
+
+## 🎨 Customization
+
+The project uses Tailwind CSS for styling. Customize colors, fonts, and layout by modifying:
+- `src/App.css` - Global styles
+- `src/index.css` - Base styles
+- Component-specific CSS classes
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+
+
+## 👨‍💻 Author
+
+**Hrishap**
+- GitHub: [@Hrishap](https://github.com/Hrishap)
+- LinkedIn: [Your LinkedIn Profile]
+
+---
+
+Built with  using React and Vite
