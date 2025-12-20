@@ -8,7 +8,7 @@ const WindowWrapper = (Component,windowKey) => {
 
     const Wrapped = (props) =>{
         const {focusWindow,windows} = useWindowStore();
-        const { isOpen,zIndex} = windows[windowKey]
+        const { isOpen,zIndex, isMinimized, isMaximized} = windows[windowKey]
         const ref = useRef(null);
         useGSAP(()=>{
             const el = ref.current
@@ -34,10 +34,10 @@ const WindowWrapper = (Component,windowKey) => {
         useLayoutEffect(()=>{
                 const el = ref.current
                 if(!el ) return
-                el.style.display = isOpen?"block":"none"
-                
-        },[isOpen])
-        return <section ref={ref} id={windowKey} style={{zIndex}} className='absolute'>
+                el.style.display = (isOpen && !isMinimized) ? "block" : "none"
+
+        },[isOpen, isMinimized])
+        return <section ref={ref} id={windowKey} style={{zIndex}} className={`absolute ${isMaximized ? 'maximized' : ''}`}>
             <Component {...props}/>
         </section>
     }

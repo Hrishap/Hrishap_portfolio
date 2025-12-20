@@ -11,6 +11,8 @@ const useWindowStore = create(immer((set)=>({
         win.isOpen = true
         win.data = data ?? win.data
         win.zIndex = state.nextZIndex
+        win.isMinimized = false
+        win.isMaximized = false
         state.nextZIndex++
     }),
       closeWindow: (windowKey) => set((state)=>{
@@ -23,6 +25,14 @@ const useWindowStore = create(immer((set)=>({
       focusWindow: (windowKey) => set((state)=>{
         const win = state.windows[windowKey]
         win.zIndex = state.nextZIndex++
+    }),
+      minimizeWindow: (windowKey) => set((state)=>{
+        const win = state.windows[windowKey]
+        win.isMinimized = true
+    }),
+      maximizeWindow: (windowKey) => set((state)=>{
+        const win = state.windows[windowKey]
+        win.isMaximized = !win.isMaximized
     })
 })),
 )
