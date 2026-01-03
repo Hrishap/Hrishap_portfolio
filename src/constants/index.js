@@ -43,12 +43,6 @@ const dockApps = [
     canOpen: true,
   },
   {
-    id: "safari",
-    name: "Articles", // was "Safari"
-    icon: "safari.png",
-    canOpen: true,
-  },
-  {
     id: "photos",
     name: "Gallery", // was "Photos"
     icon: "photos.png",
@@ -74,30 +68,7 @@ const dockApps = [
   },
 ];
 
-const blogPosts = [
-  {
-    id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
-];
+
 
 const techStack = [
   {
@@ -194,7 +165,6 @@ export {
   navLinks,
   navIcons,
   dockApps,
-  blogPosts,
   techStack,
   socials,
   photosLinks,
@@ -359,6 +329,60 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 4: Signalist
+{
+  id: 8,
+  name: "Signalist – AI Stock Market Platform",
+  icon: "/images/folder.png",
+  kind: "folder",
+  position: "top-80 left-40",
+  windowPosition: "top-[45vh] left-7",
+  children: [
+    {
+      id: 1,
+      name: "Signalist.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-5 left-10",
+      description: [
+        "Signalist is an AI-powered modern stock market platform designed for real-time financial insights and automation.",
+        "It enables users to track live stock prices, manage watchlists, and set personalized alerts.",
+        "The platform provides AI-driven company insights, sentiment analysis, earnings notifications, and daily market digests.",
+        "An admin dashboard allows managing stocks, publishing news, and monitoring user activity.",
+        "Built using Next.js, Shadcn UI, Better Auth, and Inngest with event-driven workflows for scalable automation."
+      ],
+    },
+    {
+      id: 2,
+      name: "signalist.app",
+      icon: "/images/safari.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://signalist-sand-tau.vercel.app",
+      position: "top-10 right-20",
+    },
+    {
+      id: 3,
+      name: "signalist.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 right-80",
+      imageUrl: "/images/signalist.png",
+    },
+    {
+      id: 4,
+      name: "GitHub.url",
+      icon: "/images/plain.png",
+      kind: "file",
+      fileType: "url",
+      href: "https://github.com/Hrishap/Signalist",
+      position: "top-60 right-20",
+    },
+  ],
+}
+
   ],
 };
 
